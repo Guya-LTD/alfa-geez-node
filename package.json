@@ -25,12 +25,16 @@
   "devDependencies": {
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
+    "ghooks": "^2.0.4",
     "mocha": "^8.0.1",
     "semantic-release": "^17.0.8"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
-    }
+    },
+    "ghooks": {
+        "pre-commit": "npm run test:single"
+      }
   }
 }
