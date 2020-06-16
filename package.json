@@ -1,0 +1,35 @@
+{
+  "name": "alfa-geez-node",
+  "version": "0.0.0-development",
+  "description": "Ethiopic datetime localizer",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz",
+    "test": "mocha ./test",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guya-LTD/alfa-geez-node.git"
+  },
+  "keywords": [
+    "Ethiopic"
+  ],
+  "author": "Simon Belete <simonbelete@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guya-LTD/alfa-geez-node/issues"
+  },
+  "homepage": "https://github.com/Guya-LTD/alfa-geez-node#readme",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "mocha": "^8.0.1",
+    "semantic-release": "^17.0.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
