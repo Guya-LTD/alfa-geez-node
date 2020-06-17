@@ -1,6 +1,6 @@
 {
   "name": "alfa-geez-node",
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "description": "Ethiopic datetime localizer",
   "main": "index.js",
   "scripts": {
