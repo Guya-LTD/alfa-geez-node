@@ -17,10 +17,6 @@
   "keywords": [
     "Ethiopic"
   ],
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "author": "Simon Belete <simonbelete@gmail.com>",
   "license": "MIT",
   "bugs": {
