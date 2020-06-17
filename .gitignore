@@ -1,5 +1,8 @@
 # Temporieires
 
+# Folders
+dist
+
 # package
 package-lock.json
 

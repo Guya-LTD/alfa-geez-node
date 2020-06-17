@@ -7,6 +7,7 @@
     "commit": "npx git-cz",
     "test": "mocha ./test",
     "test:single": "exit 0",
+    "build:main": "webpack --config webpack-back.config.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -16,6 +17,10 @@
   "keywords": [
     "Ethiopic"
   ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "author": "Simon Belete <simonbelete@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -23,18 +28,23 @@
   },
   "homepage": "https://github.com/Guya-LTD/alfa-geez-node#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "ghooks": "^2.0.4",
     "mocha": "^8.0.1",
-    "semantic-release": "^17.0.8"
+    "semantic-release": "^17.0.8",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     },
     "ghooks": {
-        "pre-commit": "npm run test:single"
-      }
+      "pre-commit": "npm run test:single"
+    }
   }
 }
