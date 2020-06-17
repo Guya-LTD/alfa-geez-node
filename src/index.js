@@ -1,8 +1,8 @@
-var alfaGeezDatetime = require('./src/datetime');
+var alfaGeezDatetime = require('./datetime');
 
-var alfaGeezLocal = require('./src/local');
+var alfaGeezLocal = require('./local');
 
-var alfaGeezLang = require('./src/language');
+var alfaGeezLang = require('./language');
 
 
 module.exports.DateTime = alfaGeezDatetime;
