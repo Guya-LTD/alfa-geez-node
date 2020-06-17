@@ -1,12 +1,12 @@
 {
   "name": "alfa-geez-node",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Ethiopic datetime localizer",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "commit": "npx git-cz",
-    "test": "mocha ./test",
-    "test:single": "exit 0",
+    "test": "mocha ./test -w",
+    "test:single": "mocha ./test",
     "build:main": "webpack --config webpack-back.config.js",
     "semantic-release": "semantic-release"
   },
@@ -34,7 +34,7 @@
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "ghooks": "^2.0.4",
-    "mocha": "^8.0.1",
+    "mocha": "=7.2.0",
     "semantic-release": "^17.0.8",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
