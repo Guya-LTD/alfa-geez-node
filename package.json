@@ -2,7 +2,7 @@
   "name": "alfa-geez-node",
   "version": "1.1.0",
   "description": "Ethiopic datetime localizer",
-  "main": "./dist/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "commit": "npx git-cz",
     "test": "mocha ./test -w",
