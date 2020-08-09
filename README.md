@@ -1,6 +1,4 @@
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-
-[![Build Status](https://travis-ci.org/Guya-LTD/alfa-geez-node.svg?branch=master)](https://travis-ci.org/Guya-LTD/alfa-geez-node)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)     [![Build Status](https://travis-ci.org/Guya-LTD/alfa-geez-node.svg?branch=master)](https://travis-ci.org/Guya-LTD/alfa-geez-node)
 
 # Alfa Gee'z
 
@@ -16,7 +14,7 @@ Localization for Ethiopian date, time and number `Nodejs` implementation
 Install via NPM:
 
 ```bash
-$ npm install alfa-geez
+$ npm install alfa-geez-node
 ```
 
 ## Usage
@@ -24,7 +22,7 @@ $ npm install alfa-geez
 ### node
 
 ```javascript
-var alfaGeez = require('alfa-geez');
+var alfaGeez = require('alfa-geez-node');
 
 var date = new Date();  // Create new date
 
@@ -34,6 +32,7 @@ var eth_datetime = alfaGeezDatetime.convert(
     local = alfaGeez.Local.ETHIOPIC,
     language = alfaGeez.Language.AMHARIC
 );  // Return key-value paired datetime
+// output => { year: 2012, month: 11, day: 2, hour: 11, minute: 45, second: 20 }
 ```
 
 ### Local Resources List
