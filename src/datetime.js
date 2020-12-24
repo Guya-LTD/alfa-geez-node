@@ -122,6 +122,7 @@ DateTime.prototype.convert = function ( local = Local.ETHIOPIC, lanugage = Langu
     if( Object.values(Local).indexOf(local) == -1 )
         throw 'Language must be instance of Alfa Gee`z\'s Language';
 
+    // Assigning prototypes
     this.local = local;
     this.lanugage = lanugage;
 
