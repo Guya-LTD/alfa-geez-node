@@ -15,7 +15,8 @@
     "url": "https://github.com/Guya-LTD/alfa-geez-node.git"
   },
   "keywords": [
-    "Ethiopic"
+    "Ethiopic",
+    "Datetime"
   ],
   "author": "Simon Belete <simonbelete@gmail.com>",
   "license": "MIT",

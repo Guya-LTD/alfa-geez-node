@@ -123,7 +123,7 @@ DateTime.prototype.convert = function ( local = Local.ETHIOPIC, lanugage = Langu
         throw 'Language must be instance of Alfa Gee`z\'s Language';
 
     this.local = local;
-    this.lanugage = language;
+    this.lanugage = lanugage;
 
     if( local == Local.ETHIOPIC )
         new_datetime = this.gregorianToEthiopic();
